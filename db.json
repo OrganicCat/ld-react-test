@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "Setup Server",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Start Server",
+      "isComplete": true
+    },
+    {
+      "id": 3,
+      "name": "Connect to Server",
+      "isComplete": false
+    },
+    {
+      "id": 4,
+      "name": "Setup fetch",
+      "isComplete": false
+    },
+    {
+      "id": 6801,
+      "name": "More cats",
+      "isComplete": true
+    },
+    {
+      "id": 7610,
+      "name": "How many more cats?",
+      "isComplete": false
+    },
+    {
+      "id": 3124,
+      "name": "100 More cats",
+      "isComplete": false
+    },
+    {
+      "id": 5573,
+      "name": "100 years of cats",
+      "isComplete": true
+    },
+    {
+      "id": 7112,
+      "name": "Cassie is the best",
+      "isComplete": true
+    }
+  ]
+}
