@@ -42,6 +42,30 @@ li {
   list-style-type: none;
 }
 
+li span.delete-item {
+  visibility: hidden;
+  text-decoration: none;
+  color: #FF0000;
+}
+
+span.delete-item a {
+  text-decoration: none;
+  color: #FF0000;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
 .error {
   color: #FF0000;
+}
+
+.Footer a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.active {
+  font-weight: bold;
 }
