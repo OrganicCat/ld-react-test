@@ -41,3 +41,7 @@ ul {
 li {
   list-style-type: none;
 }
+
+.error {
+  color: #FF0000;
+}
