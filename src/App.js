@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {TodoForm, TodoList} from './components/todo';
 
 class App extends Component {
   constructor() {
@@ -30,16 +31,8 @@ class App extends Component {
           <h2>React Todos</h2>
         </div>
         <div className="Todo-App">
-          <form>
-            <input type="text" value={this.state.currentTodo} onChange={this.handleInputChange} />
-          </form>
-          <div className="Todo-List">
-            <ul>
-              {this.state.todos.map(todo => 
-                <li key={todo.id}><input type="checkbox" defaultChecked={todo.isComplete} />{todo.name}</li>
-              )}
-            </ul>
-          </div>
+          <TodoForm handleInputChange={this.handleInputChange} currentTodo={this.state.currentTodo} />
+          <TodoList todos={this.state.todos} />
         </div>
       </div>
     );
